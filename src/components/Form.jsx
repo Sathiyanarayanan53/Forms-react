@@ -27,7 +27,7 @@ const Form = ({editIndex,formData, handleFormDataChange, handleSubmit }) => {
                             } /> </td>
                     </tr>
                     <tr className="p-2">
-                        <td colSpan={2} className=" text-center p-2 " > <button className=" bg-blue-600 text-white rounded-lg px-4 py-2" type="submit">{editIndex==null?"add ":"Edit"}</button> </td>
+                        <td colSpan={2} className=" text-center p-2 " > <button className=" bg-blue-600 text-white rounded-lg px-4 py-2" type="submit">{editIndex==null?"Update ":"add"}</button> </td>
                     </tr>
                 </tbody>
             </table>
